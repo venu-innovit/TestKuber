@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: INSERT_PATH_TO_DOCKER_IMAGE
+        image: gcr.io/bitshift-225317/backend@sha256:80d37b6ea669f39244d1cdbc0d9e2471fb88dc7a4cf9ca23645882b8cbbf19b6
         ports:
         - containerPort: 5000

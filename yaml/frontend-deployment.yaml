@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: INSERT_PATH_TO_DOCKER_IMAGE
+        image: gcr.io/bitshift-225317/frountend@sha256:bcc609eaf3402062c32e9402a94c0d650d180139f2c536a715d8f6e6e8655dd6
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
